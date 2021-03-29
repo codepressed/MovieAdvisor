@@ -3,7 +3,7 @@ Spring based Java application that allows you to scrape through a csv with
 movies data. You can display all movies or filter
 by genre, different genres, year, between years, title or show a help message.
 
-##Instructions
+## Instructions
     -lg
 List the different genres of movies in the collection.
 No more parameters can be used.
@@ -31,7 +31,7 @@ The use of upper / lower case in the comparison will be ignored.
     -h
 Show this help message.
 
-###Examples of use
+### Examples of use
     java -jar movieadvisor.jar -y 2018 -ag Action, Comedy
 Shows the 2018 action and / or comedy movies released.
 
@@ -45,7 +45,7 @@ action genre and science fiction and were released between 1990 and 2010.
     java -jar movieadvisor.jar -lg
 Shows a list with all genres.
 
-##Licenses
+## Licenses
 
 Data used about movies used in this app is
 real and is taken from the website [IMDb](https://www.imdb.com). Keep in mind
